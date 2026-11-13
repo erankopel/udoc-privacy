@@ -6,17 +6,32 @@
 <meta name="google-site-verification" content="GaBuSSLihsUOPI-b4HW5FzDuNKXASlU2gS6sa1JfH40" />
 <title>uDoc</title>
 <style>
-  :root { --bg: #ffffff; --fg: #1d2330; --link: #1a56c4; }
-  @media (prefers-color-scheme: dark) { :root { --bg: #14181f; --fg: #e6e9ef; --link: #8ab4ff; } }
+  :root { --bg: #ffffff; --fg: #1d2330; --link: #1a56c4; --shot-shadow: rgba(0,0,0,.18); }
+  @media (prefers-color-scheme: dark) { :root { --bg: #14181f; --fg: #e6e9ef; --link: #8ab4ff; --shot-shadow: rgba(0,0,0,.5); } }
   html { background: var(--bg); color: var(--fg); }
   body { font: 17px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; max-width: 42rem; margin: 0 auto; padding: 3rem 1rem; }
   a { color: var(--link); }
+  .hero { display: block; width: 100%; height: auto; border-radius: 16px; margin-bottom: 1.5rem; }
+  .install { margin: 1.75rem 0 .5rem; }
+  .install a { display: inline-block; }
+  .install img { display: block; height: 72px; width: auto; }
+  .shots { display: flex; gap: 1rem; overflow-x: auto; padding: .5rem .1rem 1rem; scroll-snap-type: x mandatory; }
+  .shots a { flex: 0 0 auto; scroll-snap-align: start; }
+  .shots img { display: block; height: 430px; width: auto; border-radius: 14px; box-shadow: 0 6px 24px var(--shot-shadow); }
 </style>
 </head>
 <body>
 <main>
+<img class="hero" src="https://play-lh.googleusercontent.com/F8arq0AEhbylIOy8d9pxWp6jKJ2zFhB-F5hjkazfvPAQYmx3BXsFe3kA6DjBlA9UnGRBvUnKiyWGjERuacZ6=w1024-h500-rw" alt="uDoc: documents on your phone. No ads. No tracking. No permissions." width="1024" height="500">
 <h1>uDoc</h1>
 <p>A word processor for your phone. Open, edit and save .docx documents with no ads and no tracking.</p>
+<p class="install"><a href="https://play.google.com/store/apps/details?id=vip.medicom.udoc"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play"></a></p>
+<div class="shots">
+<a href="https://play.google.com/store/apps/details?id=vip.medicom.udoc"><img src="https://play-lh.googleusercontent.com/2E80b27W970fP3-eviyHg5GCvPPxv9W_dZ1Dz1PgYOll1-ru8mniNB54H0XQVjC25NukDKdlxuZYaDmihDpDuA=w512-h1024-rw" alt="uDoc start screen with document templates" loading="lazy"></a>
+<a href="https://play.google.com/store/apps/details?id=vip.medicom.udoc"><img src="https://play-lh.googleusercontent.com/8gEivMhNkOQgc9OOyFcoC1CKGxisHdwgGjTkuep1epNGqs08JnQ54OuQ8CQo7epG68xGgl5SUscXOim67XGkPA=w512-h1024-rw" alt="Editing a document in uDoc" loading="lazy"></a>
+<a href="https://play.google.com/store/apps/details?id=vip.medicom.udoc"><img src="https://play-lh.googleusercontent.com/YLfMDaYXJzcPVFo5sKHrZVUmiJ-2tC4hzbhmvFr5k_bDl56ban2u8ItyWyjhjUskD5aieclXgk7H3t-TK0Nwxw=w512-h1024-rw" alt="uDoc screenshot" loading="lazy"></a>
+<a href="https://play.google.com/store/apps/details?id=vip.medicom.udoc"><img src="https://play-lh.googleusercontent.com/ryQ2llaFVeY2YJ1OMyFYhvFd9b9bpGCjjt6a7rQEu3oyxPFUi168JVh6wY0G1FkyfytW9DzbwOFJ_SM-bet5=w512-h1024-rw" alt="uDoc screenshot" loading="lazy"></a>
+</div>
 <p><a href="privacy">Privacy policy</a></p>
 </main>
 </body>
